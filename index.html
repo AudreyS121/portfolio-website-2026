@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!--Navigation-->
+    <section class="navigation">
+        <ul>
+            <li><a href="index.html"><h3 style="color: black;">Home</h3></a></li>
+            <li><a href="about.html"><h3 style="color: black;">My&nbsp;Story</h3></a></li>
+            <li><a href="showcase.html"><h3 style="color: black;">Project&nbsp;Showcase</h3></a></li>
+            <li><a href="contact.html"><h3 style="color: black;">Contact</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="sec1">
+    <div class="column-left" style="background-color:#ffffff;">
+        <div class="small">
+
+            <h2>Hi, I'm</h2>
+            <h1>Audrey Shi</h1>
+            <hr class="black">
+            <h3>Student Programmer and <br> Graphic Designer</h3>
+            <h3>Find more about me:</h3>
+            <button class="round-button2" id="about_button" style="animation: vertical-move 2.5s alternate infinite; ">
+                <!-- <a href="#about"> -->
+                    <img src="images/arrow-down.png" alt="" class="button-icon">
+                <!-- </a> -->
+            </button>
+               
+        </div>
+    </div>
+        <div class="column-right" style="display: flex; justify-content: center; align-items: center;">
+            <img src="images/MainImage.jpeg" alt="" class="top-img">
+        </div>
+    </section>
+    <section class="sec2" id="about" style="height: 33em;">
+        
+        
+
+        <div class="column-left" id="about_left"  style="background-color:#eaeaff; width: 48%; ">
+            <img class="about_img" src="images/Img-home-2.jpeg" alt="">
+            <div class="diagonal"></div>
+            <div class="diagonal-small"></div>
+
+
+        </div>
+        <div class="column-right" style="background-color:#eaeaff;">
+            <h4>About Me</h4><br>
+            <p style="margin-left:5% ;margin-right:5% ;">
+                I’m Audrey – a passionate computer science student, aiming to create meaningful coding projects,
+                     and aspiring to create sustainable technology that will help our society. <br><br>
+                    Right now, I am working on new programming projects and organizing events, whether they be 
+                    within my school or in the wider community. I’m always keen to meet other coders, future leaders,
+                     environment enthusiasts and anyone involved in the <br>technology field.
+
+            </p>
+            <a href="about.html">
+                <button class="button-main">
+                    <h5 style="font-size: 30px; text-decoration: none;">See&nbsp;my&nbsp;story&nbsp;></h5>
+                    
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <section class="sec1" style="height: 18em; ">
+        <h4 style="margin: 20px;">Tools I use:</h4>
+            <div class="button-cont" style="gap: 5em;" >
+                <!-- REPLACE WITH BETTER QUALITY IMAGES LATER -->
+                <div class="tool-cont">
+                    <img src="images/python.jpeg" alt="" class="logo" > 
+                    <p>Python 3.13</p>
+                </div>
+                <div class="tool-cont">
+                    <img src="images/html.jpeg" alt="" class="logo">
+                    <p>HTML5</p>
+                </div>
+                <div class="tool-cont">
+                    <img src="images/css.jpeg" alt="" class="logo">
+                    <p>CSS</p>
+                </div>
+                <div class="tool-cont">
+                    <img src="images/github.png" alt="" class="logo">
+                    <p>GitHub</p>
+                </div>
+                <div class="tool-cont">
+                    <img src="images/canva.jpeg" alt="" class="logo">
+                    <p>Canva</p>
+                </div>
+                <div class="tool-cont">
+                    <img src="images/kaggle.jpeg" alt="" class="logo">
+                    <p>Kaggle</p>
+                </div>
+            </div>
+
+    </section>
+    <section class="sec2" style="background-color: #cdc7ff;">
+        <p>&nbsp;</p>
+        <h4 style="margin:1%;">My Projects</h4>
+        <br>
+        <p style="margin:0; text-align: center;">Click the project name for more information. </p>
+        <br>
+        <div class="gallery" id="showcase">
+            <div class="group" id="group1" >
+                 <article class="card">
+                    <img src="images/img-1.jpeg" alt="" class="card_img">
+                    <a href="showcase.html#data"><h5 >Uber Data Analysis</h5></a>
+                </article>
+                <article class="card">
+                    <video src="images/Vid_2.mp4" class="card_img" autoplay loop></video>
+                    <a href="showcase.html#ux"><h5 >Digital Card Locker</h5></a>
+                </article>
+                <article class="card">
+                    <img src="images/img-3.png" alt="" class="card_img">
+                    <a href="showcase.html#design"><h5 >Bi-fold Flyer</h5></a>
+                </article>
+                <article class="card">
+                    <img src="images/Img-4.png" alt="" class="card_img">
+                    <a href="showcase.html#design"><h5 >KiwiHacks</h5></a>
+                </article>
+                
+            </div>
+            <div aria-hidden class="group" id="group2">
+                <article class="card">
+                    <img src="images/img-1.jpeg" alt="" class="card_img">
+                    <a href="showcase.html#data"><h5 >Uber Data Analysis</h5></a>
+                </article>
+                <article class="card">
+                    <video src="images/Vid_2.mp4" class="card_img" autoplay loop></video>
+                    <a href="showcase.html#ux"><h5 >Digital Card Locker</h5></a>
+                </article>
+                <article class="card">
+                    <img src="images/img-3.png" alt="" class="card_img">
+                    <a href="showcase.html#design"><h5 >Bi-fold Flyer</h5></a>
+                </article>
+                <article class="card">
+                    <img src="images/Img-4.png" alt="" class="card_img">
+                    <a href="showcase.html#design"><h5 >KiwiHacks</h5></a>
+                </article>
+                
+            </div>
+            
+        </div>
+        <br><br><br><br>
+        <a href="showcase.html" style="text-decoration: none; margin: auto;">
+            <button class="button-main" style="margin: auto;">
+                <h5 style="font-size: 30px;">See More ></h5>
+            </button>
+        </a>
+    </section>
+    
+    <section class="sec1" style="height: 700px; overflow: hidden;" id="contact-sec">
+        <img src="images/Movingimg.png" alt="" class="contact-img-two" id="scroll_img">
+        <div style="width: 100%; text-align: right;">
+            <br>
+            <br>
+            <br><br><br><br>
+            <h6 style="text-decoration: none;text-align: right;">Like what you see?</h6>
+            <h4 style="margin-top: -4em; text-decoration: none; text-align: right;">Let's work together!</h4>
+            <a href="contact.html" style="text-decoration: none;text-align: right;">
+                <button class="button-main" style="float: right; margin-right: 1%; margin-left: auto;">
+                    <h5 style="font-size: 30px;text-align: right;">Contact Me ></h5>
+                </button>
+            </a>
+        </div>
+
+    </section>
+    <footer>
+        <div class="purple_line"></div>
+        <br><br>
+        <div class="button-cont" style="gap: 4em; display: flex; justify-content: center;">
+            <button class="round-button">
+                    <a href="./contact.html#contact-details">
+                        <img src="images/email.png" alt="Email" class="button-icon">
+                    </a>
+                </button>
+                <button class="round-button">
+                    <a href="./contact.html#contact-details">
+                        <img src="images/phone.png" alt="Phone" class="button-icon">
+                    </a>
+                </button>
+                <button class="round-button">   
+                    <a href="https://www.linkedin.com/in/a-shi121/" target="_blank">
+                        <img src="images/linkedin.png" alt="Linkedin" class="button-icon">
+                    </a>
+                </button>
+                <button class="round-button">
+                    <a href="https://github.com/AudreyS121" target="_blank">
+                        <img src="images/github.png" alt="GitHub" class="button-icon">
+                    </a>
+                </button>
+                <button class="round-button">
+                    <a href="https://www.instagram.com/audri.121/" target="_blank">
+                        <img src="images/ig.png" alt="Instagram" class="button-icon">
+                    </a>
+                </button>
+        </div>
+        <br><br>
+        
+        <p style="text-align: center;">Created with 💜 by Audrey Shi, 2026</p>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navigation-->
+    <section class="navigation">
+         <ul>
+            <li><a href="index.html"><h3 style="color: black;">Home</h3></a></li>
+            <li><a href="about.html"><h3 style="color: black;">My&nbsp;Story</h3></a></li>
+            <li><a href="showcase.html"><h3 style="color: black;">Project&nbsp;Showcase</h3></a></li>
+            <li><a href="contact.html"><h3 style="color: black;">Contact</h3></a></li>
+        </ul>
+    </section>
+    <section class="header">
+       <header>Project Showcase</header>
+    </section>
+    <section class="banner-purple" id="menu">
+        <div class="slider_menu" >
+            <button class="category" style="background-color: #c4c4ff;" id="cat_all" onclick="change_menu('cat_all')" ><a href="#menu"><h3>All</h3></a></button>
+            <button class="category" id="cat_data" onclick="change_menu('cat_data')" ><h3>Data Analysis</h3></button>
+            <button class="category" id="cat_ux/design" onclick="change_menu('cat_ux/design')" ><h3>UX / Design</h3></button>
+            <button class="category" id="cat_other" onclick="change_menu('cat_other')" ><h3>Other</h3></button>
+            
+        </div>
+    </section>
+    <div id="changing_section">
+
+        <section id="data_sec">
+
+        <section class="banner-white" id="head_data">
+            <h2>Data Analysis</h2>
+        </section>
+        <section class="sec2" style="height: 800px; background-color: #eaeaff;"id="data">
+            <div class="container">
+                <article class="card_showcase" style="display: flex; justify-content: center;">
+                    <img src="images/Img-1.jpeg" alt="" class="card_img" >
+                    <h5 style="text-decoration: underline;">Uber Rides Analysis</h5>
+                    <p>Explores Uber ride patterns in India’s NCR region. Identifies patterns and factors 
+                        in ride times, incomplete rides, vehicle choices, and preferences in payment methods, 
+                        and analyses potential reasons behind them. </p>
+                    <button class="button-main">
+                        <a href="https://www.kaggle.com/code/audreyshi/uber-ncr-rides-analysis">
+                            <h5 style="font-size: 30px;">View&nbsp;Project</h5>
+                        </a>
+                    </button>
+                </article>
+                    
+                    
+            </div>
+        </section>
+        </section>
+        <section id="ux/design_sec">
+        <section class="banner-white" id="head_ux/design">
+            <h2>UX / Websites</h2>
+         </section>
+
+        <section class="sec2" style="height: 800px; background-color: #cdc7ff" id="ux">
+            <div class="container">
+                <article class="card_showcase" style="display: flex; justify-content: center;">
+                    <video src="images/Vid_2.mp4" class="card_img" autoplay muted loop></video>
+                    <!-- <img src="Screenshot_12-2-2026_125947_www.bing.com.jpeg" alt="" class="card_img"> -->
+                    <h5 style="text-decoration: underline;">Digital Card Locker</h5>
+                    <p>This is a website which stores the digital cards I have made for my friends and family, 
+                        whether it be for a birthday, Christmas, or other celebration.
+                        Users would be given a link to the website, and a code to input along with it, 
+                        thus the name Digital Card Locker.</p>
+                <button class="button-main">
+                    <a href="https://github.com/AudreyS121/Digital-card-Locker">
+                        <h5 style="font-size: 30px;">View&nbsp;Project</h5>
+                        
+                    </a>
+                </button>
+            </article>
+            
+            
+        </div>
+    </section>
+    <section class="banner-white">
+        <h2>Graphic Design</h2>
+    </section>
+    <section class="sec2" style="height: 800px; background-color: #babaff" id="design">
+        <div class="container">
+            <article class="card_showcase" style="display: flex; justify-content: center;">
+                <img src="images/img-3.png" alt="" class="card_img">
+                <h5 style="text-decoration: underline;">Bi-fold flyer</h5>
+                <p>Created a bi-fold flyer for New Zealand National MP Mahesh Muralidhar. 
+                    This involved designing the layout of the flyer, which was simplistic 
+                    and included a black and white colour scheme. </p>
+                    
+            </article>
+                <article class="card_showcase" style="display: flex; justify-content: center;">
+                    <img src="images/Img-4.png" alt="" class="card_img">
+                <h5 style="text-decoration: underline;">T-shirt Design <br>- KiwiHacks</h5>
+                <p>Created a T-shirt design for KiwiHacks attendees. The design involved a fun 
+                    and bright theme and referenced different coding aspects. </p>
+                    
+                </article>
+                
+                
+            </div>
+        </section>
+        </section>
+        <section id="other_sec">
+
+        <section class="banner-white" id="head_other">
+            <h2>Other Projects</h2>
+        </section>
+        <section class="sec2" style="height: 800px; background-color: #cdc7ff" id="other">
+            <div class="container">
+                <article class="card_showcase" style="display: flex; justify-content: center;">
+                    <img src="images/Img-5.png" alt="" class="card_img">
+                    <h5 style="text-decoration: underline;">Sticker Design <br> - KiwiHacks</h5>
+                    <p>Created KiwiHacks stickers for event participants and organisers. 
+                        These were also used as promotional material when advertising KiwiHacks 
+                        to sponsors and potential attendees. </p>
+                        
+                </article>
+            </div>
+        </section>
+        </section>
+    </div>
+
+    <section class="banner-white" style="height: 5em;">
+        
+        <p>See my Github Profile for more of my programming projects.</p>
+    </section>
+    <section class="banner-white" style="height: 10em;">
+        <a href="https://github.com/AudreyS121" class="button-main"><h5 style="font-size: 35px;">AudreyS121</h5></a>
+        <br><br>
+
+    </section>
+    <footer>
+        <div class="purple_line"></div>
+        <br><br>
+        <div class="button-cont" style="gap: 4em; display: flex; justify-content: center;">
+            <button class="round-button">
+                    <a href="./contact.html#contact-details">
+                        <img src="images/email.png" alt="Email" class="button-icon">
+                    </a>
+                </button>
+                <button class="round-button">
+                    <a href="./contact.html#contact-details">
+                        <img src="images/phone.png" alt="Phone" class="button-icon">
+                    </a>
+                </button>
+                <button class="round-button">   
+                    <a href="https://www.linkedin.com/in/a-shi121/" target="_blank">
+                        <img src="images/linkedin.png" alt="Linkedin" class="button-icon">
+                    </a>
+                </button>
+                <button class="round-button">
+                    <a href="https://github.com/AudreyS121" target="_blank">
+                        <img src="images/github.png" alt="GitHub" class="button-icon">
+                    </a>
+                </button>
+                <button class="round-button">
+                    <a href="https://www.instagram.com/audri.121/" target="_blank">
+                        <img src="images/ig.png" alt="Instagram" class="button-icon">
+                    </a>
+                </button>
+        </div>
+        <br><br>
+        
+        <p style="text-align: center;">Created with 💜 by Audrey Shi, 2026</p>
+
+    </footer>
+    
+    <script src="showcase.js"></script>
+</body>
+</html>
